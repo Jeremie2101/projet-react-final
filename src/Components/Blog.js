@@ -71,6 +71,7 @@ const Blog = () => {
             </div>
           </article>
         </div>
+            
       </div>
     </section>
   );

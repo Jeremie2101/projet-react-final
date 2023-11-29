@@ -37,6 +37,37 @@
   }
 }
 
+/* Barre de recheche filtre.css */
+
+.products__search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.products__search label {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.products__search input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.products__search input:focus {
+  outline: none;
+  border-color: #5a9bd5;
+  box-shadow: 0 0 5px rgba(90, 155, 213, 0.7);
+}
+/* end */
+
+
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
